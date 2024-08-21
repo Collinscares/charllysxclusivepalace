@@ -178,6 +178,7 @@ input{
 }
 .nav-links i{
     display: block;
+    font-size: larger;
 }
 .hero{
     height: 80vh;
@@ -207,6 +208,10 @@ input{
  button{
     font-size: 30px;
  }
+
+img{
+    width: 60%;
+}
 }
 
 .link{
