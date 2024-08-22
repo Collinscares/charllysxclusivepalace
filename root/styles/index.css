@@ -191,6 +191,7 @@ input{
 @media only screen and (max-width: 696px) {
     .nav-bar a{
         display: none;
+        padding: 50px 50px;
 }
 .nav-bar i{
     display: block;
