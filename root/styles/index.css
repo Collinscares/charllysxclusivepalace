@@ -8,9 +8,13 @@ body{
     background-color: rgba(0, 128, 0, 0.767);
 }
 .logo{
- width: 50%;
- height: 50%; 
- padding: 20px 20px;
+ width: 50px;
+ height: 50px; 
+
+}
+.logo img{
+ width: 50px;
+ height: 50px; 
 }
 
 nav{
@@ -19,6 +23,8 @@ nav{
     background-color: rgba(0, 128, 0, 0.767);
     top: 0;
     position: sticky;
+    padding: 20px 50px;
+    align-items: center;
 }
 
 .nav-bar{
@@ -29,8 +35,13 @@ padding: 20px 20px;
  text-decoration: none;
  padding: 20px;
  font-size: 22px;
- color: black;
+ color: white;
  padding-top: 30px;
+}
+.nav-bar i{
+    font-size: 30px;
+    color: white;
+    display: none;
 }
 
 a:hover{
@@ -42,7 +53,7 @@ a:hover{
 
 
 .hero{
-    background-image: linear-gradient(rgba(15, 14, 15, 0.623),rgba(15, 15, 15, 0.541)),url("../images/WhatsApp\ Image\ 2024-08-11\ at\ 23.49.47_d12ae6c8.jpg");
+    background-image: linear-gradient(rgba(15, 14, 15, 0.723),rgba(15, 15, 15, 0.841)),url("../images/WhatsApp\ Image\ 2024-08-11\ at\ 23.49.47_d12ae6c8.jpg");
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
@@ -54,7 +65,12 @@ a:hover{
     margin-bottom: 15%;
     width: 100%;
     height: 100vh;
-    padding: 0 0px;
+    padding: 0 50px;
+
+}
+.title {
+    font-size: 5rem;
+    font-family: "Matemasie", sans-serif;
 
 }
 
@@ -122,7 +138,6 @@ p{
 .sub-head-2{
     color: white;
     font-size: 50px;
-    padding-left: 20px;
 }
 
 .subhead{
@@ -173,19 +188,37 @@ input{
 }
 
 @media only screen and (max-width: 696px) {
-    .nav-links a{
+    .nav-bar a{
         display: none;
 }
-.nav-links i{
+.nav-bar i{
     display: block;
-    font-size: larger;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.title{
+    font-size: 4rem;
 }
 .hero{
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
+.hero .sub-head-2 {
+    font-size: 20px;
+}
+.hero .heading{
+    font-size: 20px;
+}
+.hero .title{
+    font-size: 30px;
+}
+
 
 .grid-container{
     grid-template-columns: auto;
